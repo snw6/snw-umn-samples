@@ -2,7 +2,7 @@ Group project for CSCI 5221. This program is a PDF split-and-merge tool with bac
 
 For reference only! See my DISCLAIMER on the home page of this repo.
 
-Except where noted otherwise, Copyright (c) 2014 Jacob Dison, Roman Dovgopol, Vikram Reddy, Tyler Schloesser, and Seth West. Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+Except where noted or implied otherwise, Copyright (c) 2014 Jacob Dison, Roman Dovgopol, Vikram Reddy, Tyler Schloesser, and Seth West. Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 
 You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
