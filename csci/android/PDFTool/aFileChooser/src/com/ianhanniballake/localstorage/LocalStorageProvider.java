@@ -1,3 +1,5 @@
+//copyright for this file held by original author
+
 package com.ianhanniballake.localstorage;
 
 import android.content.res.AssetFileDescriptor;
