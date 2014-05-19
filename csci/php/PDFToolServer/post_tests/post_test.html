@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>submitTask.php</p><br/>
+<form action="../submitTask.php" method="post" target="_blank">
+  user_agent <input type="text" name="user_agent"><br/>
+  files (w/ commas) <input type="text" name="files"><br/>
+  task_type <input type="text" name="task_type"><br/>
+  token (opt) <input type="text" name="token"><br/>
+  webLink <input type="text" name="webLink"><br/>
+  start <input type="text" name="start"><br/>
+  end <input type="text" name="end"><br/>
+  every <input type="text" name="every"><br/>
+  into <input type="text" name="into"><br/>
+  <input type="submit" value="Submit">
+</form>
+<br/>
+<br/>
+
+<p>getFiles.php</p><br/>
+<form action="../getFiles.php" method="post" target="_blank">
+  taskid <input type="text" name="taskid"><br/>
+  <input type="submit" value="Submit">
+</form>
+<br/>
+<br/>
+
+<p>downloadFIles.php</p><br/>
+<form action="../downloadFiles.php" method="post" target="_blank">
+  taskid <input type="text" name="taskid"><br/>
+  files <input type="text" name="files"><br/>
+  archive_type (opt) <input type="text" name="archive_type"><br/>
+  <input type="submit" value="Submit">
+</form>
+<br/>
+<br/>
+
+<p>getLog.php</p><br/>
+<form action="../getLog.php" method="post" target="_blank">
+  token <input type="text" name="token"><br/>
+  <input type="submit" value="Submit">
+</form>
+<br/>
+<br/>
+
+
+submittask:
+<form action="../submitTask.php" method="post" enctype="multipart/form-data">
+    user_agent <input type="text" name="user_agent"><br/>
+  files (w/ commas) <input type="text" name="files"><br/>
+  task_type <input type="text" name="task_type"><br/>
+  token (opt) <input type="text" name="token"><br/>
+  webLink <input type="text" name="webLink"><br/>
+  start <input type="text" name="start"><br/>
+  end <input type="text" name="end"><br/>
+  every <input type="text" name="every"><br/>
+  into <input type="text" name="into"><br/>
+
+  <input name="userfile[]" type="file" /><br />
+  <input name="userfile[]" type="file" /><br />
+  <input type="submit" value="Send files" />
+</form>
+
+<br/>
+<br/>
+
+</body>
+</html>
