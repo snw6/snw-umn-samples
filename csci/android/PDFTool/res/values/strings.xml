@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--General-->
+    <string name="app_name">PDF Merge/Split Tool</string>
+    <string name="chooseFileButtonText">Choose File</string>
+    <string name="resetButtonText">Reset</string>
+
+    <!--Main Page-->
+    <string name="main_headerText"><b>Options</b></string>
+    <string name="main_mergeButtonText">Merge Files</string>
+    <string name="main_splitButtonText">Split Files</string>
+    <string name="main_viewLogButtonText">History</string>
+    <string name="main_loginButtonText">Login</string><string name="main_LogoutButtonText">Logout</string>
+
+    <!--Merge Page-->
+    <string name="merge_headerText"><b>Merge Files</b></string>
+    <string name="numberOfFilesText">Number of Files: </string>
+    <string name="merge_mergeButtonText">MERGE</string>
+
+    <!--Split Page-->
+    <string name="split_headerText"><b>Split Files</b></string>
+    <string name="split_splitButtonText">Split PDF</string>
+    <string name="split_numberOfNewFiles">Number of new files</string>
+    <string name="split_pageRange">Page range</string>
+    <string name="split_pageRangeText">Page Range: </string>
+    <string name="split_splitIntoNFilesRBText">Split into </string>
+    <string name="split_splitIntoNFilesText">Files</string>
+    <string name="split_splitEveryNPagesRBText">Split Every </string>
+    <string name="split_splitEveryNPagesText">Pages</string>
+
+    <!--Login Page-->
+    <string name="login_headerText"><b>Account Login</b></string>
+    <string name="login_usernameText">Username: </string>
+    <string name="login_passwordText">Password: </string>
+    <string name="login_loginButtonText">Login</string>
+    <string name="login_clearTextButtonText">Clear Text</string>
+    <string name="login_logoutButtonText">Logout</string>
+    <string name="login_createNewAccountButtonText">Create New Account</string>
+    <string name="login_alertDialogTitle">Error</string>
+    <string name="login_alertDialogOK">OK</string>
+    <string name="login_alertDialogMessage">Invalid Username or Password!</string>
+
+    <!--View Log Page-->
+    <string name="viewLog_headerText"><b>View Log/Download Files</b></string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="off">Logout</string>
+    <string name="logged">Logged on as </string>
+    <string name="upload">Upload date/time -</string>
+    <string name="download">Download file</string>
+    <string name="filename">File</string>
+    <string name="preferences_file">csci5221.group01.pdftool.preferences_file</string>
+    <string name="saved_email">email</string>
+    <string name="saved_server_url">server_url</string>
+    <string name="saved_download_directory" >download_directory</string><string name="default_server_url">http://24.118.84.246/5221/</string>
+    
+
+</resources>

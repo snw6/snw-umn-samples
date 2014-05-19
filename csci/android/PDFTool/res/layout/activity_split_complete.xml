@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+  	android:paddingLeft="@dimen/activity_horizontal_margin"
+  	android:paddingRight="@dimen/activity_horizontal_margin"
+  	android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/split_pdfs_open_dir_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open PDF directory" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Link"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/split_pdfs_direct_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direct Download" />
+
+        <RadioButton
+            android:id="@+id/split_pdfs_web_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Page" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/split_pdfs_url2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:text="Large Text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/split_pdfs_share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share link" />
+
+        <Button
+            android:id="@+id/split_pdfs_copy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy link" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/split_pdf_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
